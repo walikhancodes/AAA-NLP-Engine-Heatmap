@@ -10,7 +10,7 @@ file containing the shapes for every US city. Attached below is a screenshot of 
 
 ![image](https://user-images.githubusercontent.com/76940552/189978952-49579232-5fdd-43ba-a801-535bf863d1e4.png)
 
-![image](https://user-images.githubusercontent.com/76940552/189979579-a2af1232-8960-47c9-8f02-0cc5862ba468.png)
+![image](https://user-images.githubusercontent.com/76940552/189980024-7b4f15ef-3a35-4749-821d-176002467f2a.png)
 
 
 
