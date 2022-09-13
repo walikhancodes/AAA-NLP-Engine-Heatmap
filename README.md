@@ -1,6 +1,6 @@
 # NLP-Topic-Modeling-
 
-ConsumerAffairs_LDA.ipynb - Python script performing NLP (Natural Language Processing) for the purpose of topic modeling. This model's corpus comes from the
+ConsumerAffairs_LDA.ipynb - Python script performing NLP (Natural Language Processing) for the purpose of topic modeling. This model's corpus comes from
 customer reviews from the American Automobile Association (AAA) website [https://www.consumeraffairs.com/automotive/aaa.html](url). 
 
 wkMapTest.ipynb - Python script mapping the results from 'ConsumerAffairs_LDA.ipynb' in a geospatial heatmap using choropleth map from plotly. The script uses a geoJSON 
