@@ -6,7 +6,7 @@ customer reviews from the American Automobile Association (AAA) website https://
 wkMapTest.ipynb - Python script mapping the results from 'ConsumerAffairs_LDA.ipynb' in a geospatial heatmap using choropleth map from plotly. The script uses a geoJSON 
 file containing the shapes for every US city. Attached below is a screenshot of how the map looks. 
 
-STEP 1: Scrapped reviews from consumer affairs website relating to AAA (https://www.consumeraffairs.com/automotive/aaa.html) using the Beautiful Soup library in Python. Then using this scrapped data found the relevant parts of every review and compiled each review onto a single dataset including both the review, rating, and city which the reivew is coming from.
+STEP 1: Scrapped reviews from consumer affairs website relating to AAA (https://www.consumeraffairs.com/automotive/aaa.html) using the Beautiful Soup library in Python. Then using this scrapped data extracted the relevant parts from html doc of every review and compiled each review onto a single dataset including both the review, rating, and city which the reivew is coming from.
 
 STEP 2; As part of the data pre processing, first we removed all stop-words from the reviews, then converted all words of same base but different part of speech into one base form (lemmatization).
 
