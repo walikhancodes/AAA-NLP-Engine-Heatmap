@@ -10,7 +10,11 @@ STEP 1: Scrapped reviews from consumer affairs website relating to AAA (https://
 
 STEP 2; As part of the data pre processing, first we removed all stop-words from the reviews, then converted all words of same base but different part of speech into one base form (lemmatization).
 
-STEP 3: Perform NLP 
+STEP 3: Perform NLP Topic Modeling -  Using gensim and SpaCy to create a Latent Dirichlet Allocation (LDA) model to extract the topics from all the reviews. 
+
+STEP 4: For every location get the index for each topic and use plotly to plot the results. In our case, we had to extract the largest 'Polygon' type from each 'MultiPolygon' in our geoJSON file containing the shape of every US city. Then, used the choropleth map from plotly to connect and dispaly our results.  
+
+
 
 ![image](https://user-images.githubusercontent.com/76940552/189978322-b6e23c2b-d702-447e-b74b-ea026f5ffcf3.png)
 
