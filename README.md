@@ -1,4 +1,4 @@
-# NLP-Topic-Modeling
+# AAA NLP Engine + Heatmap
 
 ConsumerAffairs_LDA.ipynb - Python script performing NLP (Natural Language Processing) for the purpose of topic modeling. This model peforms topic modeling on the 
 customer reviews from the American Automobile Association (AAA) website https://www.consumeraffairs.com/automotive/aaa.html
