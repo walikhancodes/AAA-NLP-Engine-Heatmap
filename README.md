@@ -6,15 +6,12 @@ customer reviews from the American Automobile Association (AAA) website https://
 wkMapTest.ipynb - Python script mapping the results from 'ConsumerAffairs_LDA.ipynb' in a geospatial heatmap using choropleth map from plotly. The script uses a geoJSON 
 file containing the shapes for every US city. Attached below is a screenshot of how the map looks. 
 
-STEP 1: Scrapped reviews from consumer affairs website relating to AAA (https://www.consumeraffairs.com/automotive/aaa.html) using the Beautiful Soup library in Python. Then using this scrapped data extracted the relevant parts from html doc of every review and compiled each review onto a single dataset including both the review, rating, and city which the reivew is coming from.
-
-STEP 2; As part of the data pre processing, first we removed all stop-words from the reviews, then converted all words of same base but different part of speech into one base form (lemmatization).
-
-STEP 3: Perform NLP Topic Modeling -  Using gensim and SpaCy to create a Latent Dirichlet Allocation (LDA) model to extract the topics from all the reviews. 
-
-STEP 4: For every location get the index for each topic and use plotly to plot the results. In our case, we had to extract the largest 'Polygon' type from each 'MultiPolygon' in our geoJSON file containing the shape of every US city. Then, used the choropleth map from plotly to connect and display our results.  
-
-
+• Utilized PyTorch and TensorFlow to train and develop a Latent Dirichlet Allocation (LDA) topic modeler, enabling accurate identification and categorization of topics within a large corpus of text data
+• Employed Jupyter notebooks to develop robust web-scraping scripts, effectively extracting consumer reviews related to the auto-services company AAA. The scraped data served as the foundation for training, testing, and modeling the NLP engine
+• Conducted extensive feature engineering to enhance the testing accuracy of the model. By carefully selecting and engineering relevant features from the consumer reviews, the model's performance and predictive capabilities were significantly improved
+• Leveraged geoJSON files and powerful plotting libraries in Python to create an informative geospatial heat map. This visualization depicted the geographical distribution of review origins, providing valuable insights into customer sentiment and topics discussed in each region
+• Performed sentiment analysis on the reviews, enabling a concise analysis of the sentiment expressed in each review. This sentiment analysis, along with the identified topic, was presented alongside the geospatial heat map, providing a comprehensive overview of the reviews and their implications
+• By implementing these enhancements, the overall project achieved a higher level of sophistication and effectiveness, empowering deeper understanding and actionable insights from the consumer reviews gathered 
 
 ![image](https://user-images.githubusercontent.com/76940552/189978322-b6e23c2b-d702-447e-b74b-ea026f5ffcf3.png)
 
